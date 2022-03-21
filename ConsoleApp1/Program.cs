@@ -9,9 +9,20 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            list t = new list();
-            t.Func();
-
+            var figurelist = new List<Line>()
+            {
+            new Line(),
+            new parallelogram(),
+            new triangle(),
+            new Rectangle(),
+            new Ellipse(),
+            new trapezoid(),
+            };
+            foreach(var figure in figurelist)
+            {
+                figure.figuredraw();
+            }
+            
         }
     }
 }
