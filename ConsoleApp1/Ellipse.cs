@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Ellipse : Line
     {
-        public virtual void Func()
+        public override void figuredraw()
         {
 
             Console.WriteLine("Ellipse(160, 160, 180)");
