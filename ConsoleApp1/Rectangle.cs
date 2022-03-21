@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Rectangle : parallelogram
     {
-        public virtual void Func()
+        public override void figuredraw()
         {
 
             Console.WriteLine("rectangle(10, 10, 50, 50)");
