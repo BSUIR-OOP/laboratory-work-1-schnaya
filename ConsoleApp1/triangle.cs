@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class triangle: Line
     {
-        public virtual void Func()
+        public override void figuredraw()
         {
 
             Console.WriteLine("triangle(10, 10, 50, 50,10,50)");
